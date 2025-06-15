@@ -32,10 +32,8 @@ plugins:
   - mkdocstrings:
       handlers:
         python:
-          selection:
-            filters:
-              - "!^_"  # Exclure les membres privés
-          rendering:
+          options:
+            filters: ["!^_"]  # Exclure les membres privés
             show_root_heading: true
             show_source: true
   - git-revision-date
