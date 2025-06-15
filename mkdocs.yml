@@ -45,9 +45,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed
   - pymdownx.tasklist
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.emoji
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -56,17 +54,11 @@ markdown_extensions:
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.css
-
-extra_javascript:
-  - https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js
-  - javascripts/mermaid-init.js
-  
-extra_javascript:
-  - https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js
-  - javascripts/mermaid-init.js
-
-extra_css:
   - styles/extra.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js
+  - javascripts/mermaid-init.js
 
 nav:
   - Accueil: index.md
