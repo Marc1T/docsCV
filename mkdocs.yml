@@ -45,16 +45,41 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed
   - pymdownx.tasklist
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js
+  - javascripts/mermaid-init.js
+  
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js
+  - javascripts/mermaid-init.js
 
 extra_css:
   - styles/extra.css
 
 nav:
   - Accueil: index.md
-  - Guide:
+  - Guide Utilisateur:
     - Installation: guide/installation.md
     - Utilisation: guide/usage.md
     - Configuration: guide/configuration.md
+  - Implémentation Technique:
+    - Architecture du Système: implementation/architecture.md
+    - Détection Gestuelle: implementation/gesture-detection.md
+    - Système d'Interface: implementation/ui-system.md
+    - Gestion de Configuration: implementation/config-management.md
+    - FAQ Intelligente: implementation/faq-system.md
   - API Documentation:
     - Core: api/core.md
     - Interface: api/interface.md
