@@ -1,0 +1,64 @@
+site_name: GestureMouseApp
+site_url: https://github.com/Marc1T/gestureControl.git
+site_description: Application de contrôle gestuelle pour interagir avec votre ordinateur
+site_author: NANKOULI Marc Thierry
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Passer en mode sombre
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Passer en mode clair
+
+repo_url: https://github.com/Marc1T/gestureControl.git
+repo_name: GitHub
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          selection:
+            filters:
+              - "!^_"  # Exclure les membres privés
+          rendering:
+            show_root_heading: true
+            show_source: true
+  - git-revision-date
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+
+extra_css:
+  - styles/extra.css
+
+nav:
+  - Accueil: index.md
+  - Guide:
+    - Installation: guide/installation.md
+    - Utilisation: guide/usage.md
+    - Configuration: guide/configuration.md
+  - API Documentation:
+    - Core: api/core.md
+    - Interface: api/interface.md
+    - Utils: api/utils.md
+  - À propos: about.md
