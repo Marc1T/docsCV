@@ -5,13 +5,10 @@ build:
   tools:
     python: "3.10"
 
-sphinx:
-  configuration: docs/conf.py
-
 mkdocs:
   configuration: mkdocs.yml
   fail_on_warning: false
-  
+
 python:
   install:
     - requirements: docs/requirements-docs.txt
