@@ -1,6 +1,6 @@
 # À propos de GestureMouseApp
 
-## Équipe : 3 etudiant en 1ere annee de cycle ingenieur en Intelligence Articielle et Technologie des Données
+## Équipe : 3 etudiants en 1ere année de cycle ingenieur en Intelligence Articielle et Technologie des Données
 
 | Membre | Rôle | Contact |
 |--------|------|---------|
