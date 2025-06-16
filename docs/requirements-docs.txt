@@ -1,2 +1,6 @@
-mkdocs
-mkdocs-materia
+mkdocs==1.6.1
+mkdocs-material==9.5.25
+mkdocstrings[python]==0.24.1
+mkdocs-git-revision-date-plugin==1.0.0
+pymdown-extensions==10.5
+importlib-metadata==7.1.0
