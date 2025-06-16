@@ -1,16 +1,13 @@
 site_name: GestureMouseApp
-site_url: https://github.com/Marc1T/gestureControl.git
+site_url: https://github.com/Marc1T/gestureControl
 site_description: Application de contrôle gestuelle pour interagir avec votre ordinateur
 site_author: NANKOULI Marc Thierry
 
 theme:
   name: material
-  language: fr
   features:
     - navigation.tabs
     - navigation.top
-    - search.highlight
-    - search.share
     - toc.integrate
     - content.code.copy
   palette:
@@ -27,7 +24,7 @@ theme:
         icon: material/weather-sunny
         name: Passer en mode clair
 
-repo_url: https://github.com/Marc1T/gestureControl.git
+repo_url: https://github.com/Marc1T/gestureControl
 repo_name: GitHub
 
 plugins:
@@ -65,14 +62,9 @@ extra_javascript:
 
 nav:
   - Accueil: index.md
-  - Guide Utilisateur:
-    - Installation: guide/installation.md
-    - Utilisation: guide/usage.md
-    - Configuration: guide/configuration.md
-  - Implémentation Technique:
-    - Architecture du Système: implementation/architecture.md
-    - Détection Gestuelle: implementation/gesture-detection.md
-    - Système d'Interface: implementation/ui-system.md
-    - Gestion de Configuration: implementation/config-management.md
-    - FAQ Intelligente: implementation/faq-system.md
+  - Guide d'utilisation:
+      - Guide complet: guide/user-guide.md
+  - Développement:
+      - Architecture et composants: implementation/system.md
+      - API et modules: api/reference.md
   - À propos: about.md

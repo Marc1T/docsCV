@@ -1,24 +1,39 @@
 // docs/javascripts/mermaid-init.js
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener("DOMContentLoaded", function() {
     mermaid.initialize({
         startOnLoad: true,
-        theme: 'dark',
-        securityLevel: 'loose',
+        theme: "default",
+        securityLevel: "loose",
         flowchart: {
             useMaxWidth: false,
-            htmlLabels: true
+            htmlLabels: true,
+            curve: 'basis'
         },
-        themeVariables: {
-            primaryColor: '#5e35b1',
-            primaryBorderColor: '#4527a0',
-            primaryTextColor: '#ffffff'
+        sequence: {
+            diagramMarginX: 50,
+            diagramMarginY: 10,
+            boxMargin: 10,
+            showSequenceNumbers: false
+        },
+        gantt: {
+            titleTopMargin: 25,
+            barHeight: 20,
+            barGap: 4,
+            topPadding: 50,
+            leftPadding: 75,
+            gridLineStartPadding: 35,
+            fontSize: 13,
+            numberSectionStyles: 4,
+            axisFormat: '%Y-%m-%d'
         }
     });
     
-    // Re-render les diagrammes quand on change d'onglet
+    // Re-render Mermaid diagrams when tabs are changed
     document.querySelectorAll('.md-tabs__link').forEach(tab => {
         tab.addEventListener('click', () => {
-            setTimeout(mermaid.init, 300);
+            setTimeout(() => {
+                mermaid.init(undefined, '.mermaid');
+            }, 300);
         });
     });
 });

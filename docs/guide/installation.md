@@ -1,52 +1,48 @@
 # Installation
 
-## Prérequis
+## Prérequis système
 
-- Windows 10/11 (64-bit)
-- Webcam compatible
-- [Microsoft Visual C++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+```mermaid
+graph LR
+    A[Windows 10/11 64-bit] --> B[Webcam]
+    B --> C[Processeur Dual-Core]
+    C --> D[2GB RAM]
+    D --> E[Espace disque 500MB]
+```
 
 ## Méthodes d'installation
 
-### Installation à partir du code source
+### Installation à partir des sources
 
-1. Cloner le dépôt :
-   ```bash
-   git clone https://github.com/Marc1T/gestureControl.git
-   cd GestureMouseApp
-
-2. Créer un environnement virtuel :
-   ```bash
-   python -m venv .venv
-   .\.venv\Scripts\activate
-   ```
-
-3. Installer les dépendances :
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Lancer l'application :
-   ```bash
-   python main.py
-   ```
-
-### Installation via l'exécutable
-
-1. Télécharger la dernière version depuis [GitHub Releases](https://github.com/Marc1T/gestureControl.git/release)
-2. Exécuter `GestureMouseApp-Setup.exe`
-3. Suivre les instructions d'installation
-
-### Installation avec pip
 ```bash
-pip install gesturemouseapp
-gesturemouseapp
+git clone https://github.com/Marc1T/gestureControl.git
+cd gestureControl
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+python main.py
 ```
 
-## Vérification de l'installation
+### Installation via exécutable
 
-Après installation, lancez l'application et vérifiez :
+1. Téléchargez `GestureMouseApp-Setup.exe` depuis [Releases](https://github.com/Marc1T/gestureControl/releases)
+2. Exécutez le programme d'installation
+3. Suivez les instructions à l'écran
 
-1. La webcam est détectée
-2. Les gestes sont reconnus dans l'onglet Vidéo
-3. Le chatbot répond aux questions dans l'onglet FAQ
+### Vérification de l'installation
+
+```mermaid
+flowchart TD
+    A[Démarrer l'application] --> B{Caméra détectée?}
+    B -->|Oui| C[Flux vidéo visible]
+    B -->|Non| D[Vérifier les pilotes]
+    C --> E{Gestes reconnus?}
+    E -->|Oui| F[Installation réussie]
+    E -->|Non| G[Calibrer la sensibilité]
+```
+
+## Problèmes courants
+
+- **Erreur de caméra** : Vérifiez les autorisations et les pilotes
+- **Dépendances manquantes** : Installez [VC++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+- **Performances médiocres** : Fermez les applications gourmandes en ressources

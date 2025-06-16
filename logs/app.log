@@ -1,0 +1,17 @@
+2025-06-16 09:24:49 [INFO] Logger initialisé (niveau=INFO, fichier=logs/app.log)
+2025-06-16 09:24:49 [INFO] Démarrage de l'application GestureMouseApp
+2025-06-16 09:24:50 [INFO] Caméras détectées: [0]
+2025-06-16 09:24:51 [INFO] Chargé 29 entrées FAQ
+2025-06-16 09:24:51 [INFO] Vectoriseur TF-IDF initialisé
+2025-06-16 09:24:51 [INFO] FAQBot initialisé avec succès
+2025-06-16 09:24:51 [INFO] GestureDetector initialisé
+2025-06-16 09:24:51 [INFO] HandRecognizer initialisé (label=1)
+2025-06-16 09:24:51 [INFO] HandRecognizer initialisé (label=0)
+2025-06-16 09:24:51 [INFO] GestureController initialisé
+2025-06-16 09:24:51 [INFO] VideoThread initialisé
+2025-06-16 09:24:52 [INFO] MainWindow initialisée
+2025-06-16 09:24:52 [INFO] Interface principale initialisée avec succès
+2025-06-16 09:25:06 [INFO] Réponse trouvée pour 'comment defiler' (similarité=1.00, question='Comment zoomer/dézoomer ?')
+2025-06-16 09:25:06 [INFO] FAQ - Question: comment defiler
+2025-06-16 09:25:58 [INFO] Détection arrêtée
+2025-06-16 09:25:58 [INFO] Application fermée
