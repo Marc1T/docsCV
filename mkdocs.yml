@@ -5,9 +5,12 @@ site_author: NANKOULI Marc Thierry
 
 theme:
   name: material
+  language: fr
   features:
     - navigation.tabs
     - navigation.top
+    - search.highlight
+    - search.share
     - toc.integrate
     - content.code.copy
   palette:
@@ -72,8 +75,4 @@ nav:
     - Système d'Interface: implementation/ui-system.md
     - Gestion de Configuration: implementation/config-management.md
     - FAQ Intelligente: implementation/faq-system.md
-  - API Documentation:
-    - Core: api/core.md
-    - Interface: api/interface.md
-    - Utils: api/utils.md
   - À propos: about.md
