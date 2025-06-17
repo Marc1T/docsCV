@@ -7,7 +7,7 @@
 
 **Contrôlez votre ordinateur par gestes** - Une solution intuitive pour une interaction naturelle sans périphériques
 
-![Interface principale de GestureMouseApp](./assets/screenshot-main.png)
+![Interface principale de GestureMouseApp](docs/assets/screenshot-main.png)
 
 ## Fonctionnalités Clés ✨
 
