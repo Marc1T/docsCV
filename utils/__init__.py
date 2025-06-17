@@ -1,3 +1,0 @@
-# filepath: utils/__init__.py
-
-# ...existing code...
