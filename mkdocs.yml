@@ -44,7 +44,7 @@ plugins:
             filters: ["!^_"]  # Exclure les membres privés
             show_root_heading: true
             show_source: true
-  - git-revision-date-localized
+  - git-revision-date
 
 # Extensions Markdown
 markdown_extensions:
