@@ -1,32 +1,40 @@
+# Configuration principale
 site_name: GestureMouseApp
-site_url: https://github.com/Marc1T/gestureControl
-site_description: Application de contrôle gestuelle pour interagir avec votre ordinateur
-site_author: NANKOULI Marc Thierry
+site_url: https://github.com/Marc1T/GestureMouseApp
+site_description: Application de contrôle gestuel pour ordinateur
+site_author: Marc Thierry NANKOULI
 
+# Thème Material
 theme:
   name: material
+  language: fr
   features:
     - navigation.tabs
-    - navigation.top
-    - toc.integrate
+    - navigation.instant
+    - navigation.sections
+    - navigation.tracking
+    - search.highlight
+    - search.share
     - content.code.copy
   palette:
     - scheme: default
-      primary: deep purple
-      accent: amber
+      primary: blue grey
+      accent: deep orange
       toggle:
         icon: material/weather-night
         name: Passer en mode sombre
     - scheme: slate
-      primary: deep purple
-      accent: amber
+      primary: blue grey
+      accent: deep orange
       toggle:
         icon: material/weather-sunny
         name: Passer en mode clair
 
-repo_url: https://github.com/Marc1T/gestureControl
+# Dépôt du projet
+repo_url: https://github.com/Marc1T/GestureMouseApp
 repo_name: GitHub
 
+# Plugins
 plugins:
   - search
   - mkdocstrings:
@@ -36,8 +44,9 @@ plugins:
             filters: ["!^_"]  # Exclure les membres privés
             show_root_heading: true
             show_source: true
-  - git-revision-date
+  - git-revision-date-localized
 
+# Extensions Markdown
 markdown_extensions:
   - admonition
   - attr_list
@@ -52,19 +61,37 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
+# Fichiers CSS et JavaScript supplémentaires
 extra_css:
-  - https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.css
   - styles/extra.css
-
 extra_javascript:
-  - https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js
   - javascripts/mermaid-init.js
 
+# Structure de navigation
 nav:
   - Accueil: index.md
-  - Guide d'utilisation:
-      - Guide complet: guide/user-guide.md
+  - Installation:
+      - Prérequis: install/prerequis.md
+      - Installation et configuration: install/setup.md
+  - Utilisation:
+      - Démarrer l'application: usage/start.md
+      - Commandes et Gestes: usage/commands.md
+  - Architecture du Projet:
+      - Structure des fichiers: architecture/files.md
+      - Explication des modules: architecture/modules.md
+  - Modules Principaux:
+      - Détection des gestes (`gesture_detection.py`): modules/gesture_detection.md
+      - Reconnaissance des mains (`hand_recognition.py`): modules/hand_recognition.md
+      - Contrôle des actions (`gesture_controller.py`): modules/gesture_controller.md
+      - Gestion du flux vidéo (`video_thread.py`): modules/video_thread.md
+      - Interface principale (`main_window.py`): modules/main_window.md
   - Développement:
-      - Architecture et composants: implementation/system.md
-      - API et modules: api/reference.md
-  - À propos: about.md
+      - API du projet: dev/api.md
+      - Ajout de nouvelles fonctionnalités: dev/extensions.md
+  - Dépannage:
+      - Erreurs courantes et solutions: troubleshooting/errors.md
+  - Contribution:
+      - Comment contribuer?: contribute/how.md
+  - À propos:
+      - Historique du projet: about/history.md
+      - Licence et mentions légales: about/license.md

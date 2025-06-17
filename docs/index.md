@@ -1,89 +1,65 @@
-# GestureMouseApp - Contrôle gestuel de votre ordinateur
+# GestureMouseApp 🖐️💻 - Contrôle gestuel de votre ordinateur
 
-![Logo](assets/logo.png){ align=left width=100 }
+![Logo](assets/logo.png){ align=left width=75 }
 
 **Une application innovante pour contrôler votre souris, volume et luminosité par des gestes naturels**
 
-[Commencer](guide/user-guide.md){ .md-button } 
+---
+Bienvenue dans la documentation officielle de **GestureMouseApp** !  
+Cette application vous permet de **contrôler votre ordinateur avec des gestes de la main**, grâce à l’intelligence artificielle et la vision par ordinateur.
+
+[Demo](assets/demo.mp4){ .md-button } 
 [Voir le code source](https://github.com/Marc1T/gestureControl){ .md-button .md-button--secondary }
 
----
+## Équipe du projet GestureMouseApp
 
-## Fonctionnalités principales
+Ce projet a été développé dans le cadre d’un projet académique sous la supervision de **Pr MASROUR Tawfik**.  
 
-- 🖱️ Contrôle précis du curseur par gestes de la main
-- 🔊 Ajustement du volume et de la luminosité par gestes de pincement
-- ❓ Assistant FAQ intégré avec intelligence artificielle
-<!-- - ⚙️ Interface personnalisable avec thèmes clair/sombre -->
-- 📊 Journalisation complète pour le débogage
+### Membres de l’équipe :
+- **NANKOULI Marc Thierry**
+- **[CHAIBOU Abdoulaye]**
+- **[ELFILALI Halima]**
+  
+## 🚀 **Pourquoi GestureMouseApp ?**
+✔ **Interaction naturelle** sans souris ni clavier  
+✔ **Accessibilité améliorée** pour tous les utilisateurs  
+✔ **Contrôle fluide et rapide** pour naviguer sans effort  
+✔ **Personnalisation des gestes et actions**  
 
-<!-- <div class="grid" markdown>
+## 🔍 **Principales fonctionnalités**
+✅ **Détection des mains et des gestes** en temps réel  
+✅ **Reconnaissance avancée des mouvements** pour un contrôle précis  
+✅ **Actions système automatisées** (clics, défilement, réglages du volume/luminosité, scroll)  
+✅ **Interface intuitive** avec gestion des paramètres  
 
--   :material-gesture-tap-button:{ .lg .middle } **Contrôle intuitif**
-    - Déplacement du curseur
-    - Clics gauche/droit
-    - Défilement
-    - Zoom
-    
--   :material-cog:{ .lg .middle } **Personnalisation avancée**
-    - Sensibilité ajustable
-    - Gestes personnalisables
-    - Profils utilisateur
-    - Support multi-caméras
-    
--   :material-chat-processing:{ .lg .middle } **Assistance intelligente**
-    - FAQ intégrée
-    - Détection automatique des problèmes
-    - Journalisation détaillée
+## 🔗 Réutilisation des modules  
+Les composants de détection et reconnaissance des gestes sont conçus pour être **performants et modulables**.  
+Vous pouvez les **intégrer dans d’autres projets** nécessitant une **interaction gestuelle fluide** :  
+- **Automatisation et domotique** 🏠 : contrôle sans contact des appareils  
+- **Secteur médical** 🏥 : interfaces pour les chirurgiens ou patients à mobilité réduite  
+- **Gaming et XR** 🎮 : interaction immersive dans les jeux et applications VR
 
-</div> -->
+## 📌 **Guide de la documentation**
+Cette documentation est organisée en plusieurs sections pour vous aider à installer, utiliser et personnaliser GestureMouseApp :
 
-```mermaid
-graph LR
-    A[Webcam] --> B(Détection des mains)
-    B --> C(Reconnaissance des gestes)
-    C --> D{Action système}
-    D --> E[Mouvement souris]
-    D --> F[Contrôle volume]
-    D --> G[Contrôle luminosité]
-    D --> H[Défilement]
-```
----
+- 📥 [Installation](install/setup.md) – Comment installer l’application et configurer votre environnement.
+- 🖥️ [Utilisation](usage/start.md) – Démarrer l’application et découvrir les gestes disponibles.
+- 🏗️ [Architecture](architecture/files.md) – Explication du fonctionnement et des modules du projet.
+- 🔧 [Modules](modules/gesture_detection.md) – Détails techniques sur chaque composant.
+- 🛠️ [Dépannage](troubleshooting/errors.md) – Solutions aux erreurs fréquentes.
+- 🚀 [Contribution](contribute/how.md) – Comment participer au projet et l’améliorer.
 
-## Captures d'écran
-
-=== "Interface principale"
-    ![Interface principale](assets/screenshot-main.png)
-
-=== "Paramètres"
-    ![Paramètres](assets/screenshot-settings.png)
-
-=== "Détection gestuelle"
-    ![Détection gestuelle](assets/screenshot-detection.png)
-
-=== "ChatBot FAQ"
-    ![Détection gestuelle](assets/screenshot-faq.png)
-
-## Témoignages
-
-> "GestureMouseApp a révolutionné ma façon d'interagir avec mon ordinateur. L'interface est intuitive et la détection des gestes est remarquablement précise."  
-> - **Alex D.**, Utilisateur régulier
-
-> "En tant que développeur, j'apprécie particulièrement l'architecture modulaire et la documentation complète qui facilitent la contribution au projet."  
-> - **Sarah K.**, Développeuse Python
+## 🛠️ **Technologies utilisées**
+GestureMouseApp repose sur des technologies avancées :
+- **OpenCV** – Capture vidéo et traitement d’image
+- **MediaPipe** – Détection des mains et reconnaissance des gestes
+- **PyQt5** – Interface utilisateur graphique intuitive
+- **Scikit-learn** – NLP pour le chatbot FAQ
+- **MkDocs + Material** – Documentation structurée et facile à naviguer  
 
 ---
 
-## Dernières mises à jour
+✨ **Commencez dès maintenant !** Cliquez sur la section qui vous intéresse et explorez la documentation.  
 
-- **Version 1.1** (2025-06-15) :  
-  - Support multi-écrans ajouté
-  - Amélioration de la détection des gestes complexes
-  - Interface traduite en 3 langues supplémentaires
-
-- **Version 1.0** (2025-05-01) :  
-  - Lancement initial avec toutes les fonctionnalités de base
-  - Documentation complète
-  - Support Windows
-
-[Voir toutes les versions](https://github.com/Marc1T/gestureControl/releases){ .md-button }
+🖐️ **Prêt à transformer votre interaction avec l’ordinateur ?**  
+👉 [Installer GestureMouseApp](install/setup.md) et commencez à contrôler votre PC **sans souris ni clavier** ! 🚀  
