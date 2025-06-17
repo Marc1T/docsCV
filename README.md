@@ -1,4 +1,4 @@
-# GestureMouseApp - Contrôle Gestuel d'Interface
+# [Documentation de projet GestureMouseApp](https://docscv.readthedocs.io/fr/latest/about/) - Contrôle Gestuel d'Interface, le PC ici
 
 [![Licence MIT](https://img.shields.io/badge/Licence-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0-green.svg)]()
@@ -7,7 +7,7 @@
 
 **Contrôlez votre ordinateur par gestes** - Une solution intuitive pour une interaction naturelle sans périphériques
 
-![Interface principale de GestureMouseApp](assets/screenshot-main.png)
+![Interface principale de GestureMouseApp](./assets/screenshot-main.png)
 
 ## Fonctionnalités Clés ✨
 
