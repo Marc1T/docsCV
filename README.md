@@ -1,4 +1,4 @@
-# [Documentation de projet GestureMouseApp](https://docscv.readthedocs.io/fr/latest/about/) - Contrôle Gestuel d'Interface, le PC ici
+# [Documentation de projet GestureMouseApp](https://docscv.readthedocs.io/fr/latest/) - Contrôle Gestuel d'Interface, le PC ici
 
 [![Licence MIT](https://img.shields.io/badge/Licence-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0-green.svg)]()
@@ -140,4 +140,4 @@ Pour toute question ou suggestion, contactez-moi :
  NANKOULI Marc Thierry
  ELFILALI Halima
  CHAIBOU Abdoulaye  
-[Documentation complète](https://docscv.readthedocs.io/fr/latest/about/) | <!--[Rapport technique](docs/report.pdf) | [Présentation](docs/presentation.pptx) -->
+[Documentation complète](https://docscv.readthedocs.io/fr/latest/) | <!--[Rapport technique](docs/report.pdf) | [Présentation](docs/presentation.pptx) -->
