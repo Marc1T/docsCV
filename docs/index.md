@@ -17,8 +17,8 @@ Ce projet a été développé dans le cadre d’un projet académique sous la su
 
 ### Membres de l’équipe :
 - **NANKOULI Marc Thierry**
-- **[CHAIBOU Abdoulaye]**
-- **[ELFILALI Halima]**
+- **CHAIBOU Abdoulaye**
+- **ELFILALI Halima**
   
 ## 🚀 **Pourquoi GestureMouseApp ?**
 ✔ **Interaction naturelle** sans souris ni clavier  
