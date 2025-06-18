@@ -85,6 +85,7 @@ nav:
       - Contrôle des actions (`gesture_controller.py`): modules/gesture_controller.md
       - Gestion du flux vidéo (`video_thread.py`): modules/video_thread.md
       - Interface principale (`main_window.py`): modules/main_window.md
+      - Interface principale (`faq_bot.py`): modules/faq_bot.md
   - Développement:
       - API du projet: dev/api.md
       - Ajout de nouvelles fonctionnalités: dev/extensions.md
