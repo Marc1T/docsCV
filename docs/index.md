@@ -8,7 +8,7 @@
 Bienvenue dans la documentation officielle de **GestureMouseApp** !  
 Cette application vous permet de **contrôler votre ordinateur avec des gestes de la main**, grâce à l’intelligence artificielle et la vision par ordinateur.
 
-[Demo](assets/demo.mp4){ .md-button } 
+[Demo]([assets/demo.mp4](https://drive.google.com/file/d/pas-encore-charge/view){ .md-button } 
 [Voir le code source](https://github.com/Marc1T/gestureControl){ .md-button .md-button--secondary }
 
 ## Équipe du projet GestureMouseApp
